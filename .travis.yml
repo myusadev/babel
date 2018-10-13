@@ -1,7 +1,10 @@
+sudo: false
 git:
   depth: 10
-sudo: false
 language: node_js
+os:
+  - linux
+  - windows
 cache:
   yarn: true
   directories:
